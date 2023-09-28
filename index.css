@@ -1,0 +1,712 @@
+:root{
+    --white:#fff;
+    --shadow:10px 10px 30px rgb(0,0,0,0.1);
+}
+body{
+    background-color: #f5f7fa;;
+    margin:0 ;
+    padding: 0;
+    font-family: "Inter",sans-serif;
+}
+.header{
+    justify-content: space-around;
+    display: flex; 
+    align-items: center;
+    height: 90px;
+    background-color: var(--white);
+    position: sticky;
+    top:0;
+    width: 100%;
+    z-index: 10;
+    box-shadow: var(--shadow);
+    
+    
+}
+.header-container{
+    width: 180px;
+}
+.header-container img{
+    width:100%;
+}
+.nav{
+
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    font-size: 1.0rem;
+    font-weight: bold;
+}
+.nav li{
+    padding-right: 30px;
+    
+}
+.signbtn{
+    display: flex;
+    align-items: center;
+    background-color: #00baf2;
+    border-radius: 50px;
+    height: 38px;
+    padding: 5px;
+
+}
+.signbtn h4{
+    padding: 10px;
+    margin:0;
+    color: white;
+    font-weight: 500;
+
+}
+.signbtn img{
+    width: 100%;
+}
+.hv{
+    align-items: center;
+    display: flex;
+    height: 50px;
+    background-color: rgb(0,0,0,0.1);
+    justify-content: space-around;
+
+}
+.new{
+    text-align: center;
+    font-weight: 300;
+    font-size: medium;
+}
+.section-1{
+    width: 100%;
+    margin-top: 100px;
+    margin-left: 100px;
+      
+}
+.section-1 h1{
+    font-size: 54px;
+    font-weight: 700;
+    font-family: "Inter",sans-serif;
+}
+.discription{
+    margin-top: -45px;
+    padding-top: 10px;
+    width: 475px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    font-family: "Inter",sans-serif;
+}
+.logo{
+    height: 80px;
+    margin-bottom: 3.8rem;
+}
+.logo img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.sectionone{
+    height: 650px;
+    padding-bottom: 0;
+    display: flex;
+}
+.download-btn-arr{
+    align-items: center;
+    display: flex;
+    
+
+}
+
+.download-btn-text{
+    margin-left: 25px;
+    color: white;
+}
+.catalog{
+    margin-top: 100px;
+    height: 750px;
+    width:fit-content;
+}
+.catalog img{
+    max-height: 100%;
+    max-width: 100%;
+}
+.download-btn-arr{
+    display: flex;
+    background-color: black;
+    width:30%;
+    height:44px;
+    border-radius: 50px;
+    font-size: 15px;
+}
+.btn-text{
+    font-size: 15x;
+    color: white;
+}
+.sectiontwo{
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+    height:340px;
+    background-color: #00baf2;
+}
+.sectiontwo h1{
+    margin-left: 70px;
+    padding-top: 60px;
+    color: white;
+    font-size: 34px;
+}
+.section-2{
+    margin-left: 10px;
+    width: 100%;
+   
+}
+.section-2-banner{
+    justify-content: center;
+    display: flex;
+    height: 100px;
+    width: 100%;
+}
+.one{
+    align-items: center;
+    background-color: #00baf2;
+    ;
+    border-radius: 15px;
+    height: auto;
+    width: 140px;
+    margin-right: 32px;
+    padding: 15px;
+   
+}
+.one img{
+    height: 64px;
+    width: 64px;
+}
+.one-title{
+    
+    line-height: 1.5;
+    color: white;
+}
+.sectionthree{
+    margin-top: -28px;
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+    height:340px;
+    background-color:#0f4a8a;
+}
+.section-3{
+    margin-left: 10px;
+    width: 100%;
+   
+}
+.section-3-banner{
+    justify-content: center;
+    display: flex;
+    height: 100px;
+    width: 100%;
+}
+.three{
+    align-items: center;
+    border-radius: 15px;
+    height: auto;
+    width: 140px;
+    margin-right: 32px;
+    padding: 15px;
+   
+}
+.three img{
+    height: 64px;
+    width: 64px;
+}
+.three-title{
+    
+    line-height: 1.5;
+    color: white;
+}
+.sectionthree h1{
+    margin-left: 70px;
+    padding-top: 60px;
+    color: white;
+    font-size: 34px;
+}
+.main{
+    text-align: center;
+    align-items: center;
+    background-color: #f5f7fa;
+    height: auto;
+    width: 100%;
+
+
+}
+.sub{
+    text-align: left;
+    width: 1170px;
+    margin-top: 100px;
+    margin-bottom: 35px;
+    font-size: 48px;
+    color: #000;
+    font-weight: 700;
+
+}
+.card1{
+    margin-left:150px;
+    width: 80%;
+    height: 100%;
+    background-color: #f5f7fa;
+}
+.sec1{
+    background-color: white;
+    height: auto;
+    width:100%;
+    border-radius: 30px;
+    
+}
+.logo-sec-2{
+    width: 175px;
+    display: flex;
+    align-items: center;
+    display: flex;
+    height: 80px;
+    margin-bottom: 3.8rem;
+    font-size: 16px;
+    font-weight: 700;
+    
+}
+.logo-sec-2 img{
+    padding-right: 12px;
+    max-width: 100%;
+    max-height: 100%;
+}
+.section-2{
+    text-align: left;
+    width: 100%;
+    margin-top: 100px;
+    margin-left: 100px;
+      
+}
+.section-2 h1{
+    margin-top: -1rem;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46px;
+    font-family: "Inter",sans-serif;
+}
+.discription-2{
+    margin-top: -50px;
+    padding: 24px 0 30px;
+    display: block;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 26px;
+    font-family: "Inter",sans-serif;
+}
+.logo{
+    height: 80px;
+    margin-bottom: 3.8rem;
+}
+.logo img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.sectionone{
+    height: 650px;
+    padding-bottom: 0;
+    display: flex;
+}
+.download-btn-arr{
+    align-items: center;
+    display: flex;
+    
+
+}
+
+.download-btn-text{
+    margin-left: 25px;
+    color: white;
+}
+.catalog-2{
+    margin-right: 150px;
+    margin-top: 100px;
+    height: 800pxpx;
+    width:800px;
+}
+.catalog-2 img{
+    max-height: 100%;
+    max-width: 100%;
+}
+.download-btn-arr-2{
+    display: flex;
+    background-color: black;
+    width:300px;
+    height:44px;
+    border-radius: 50px;
+    font-size: 15px;
+    justify-content: center;
+}
+.download-btn-text-2{
+    margin-top: 11px;
+    font-size: 15x;
+    color: white;
+}
+.sec2{
+    background-color: white;
+    height: auto;
+    width:100%;
+    border-radius: 15px;
+}
+.logo-sec-3{
+    width: 175px;
+    display: flex;
+    align-items: center;
+    display: flex;
+    height: 80px;
+    margin-bottom: 3.8rem;
+    font-size: 16px;
+    font-weight: 700;
+    
+}
+.logo-sec-3 img{
+    padding-right: 12px;
+    max-width: 100%;
+    max-height: 100%;
+}
+.section-3{
+    text-align: left;
+    width: 100%;
+    margin-top: 100px;
+    margin-left: 100px;
+      
+}
+.section-3 h1{
+    margin-top: -1rem;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46px;
+    font-family: "Inter",sans-serif;
+}
+.discription-3{
+    margin-top: -50px;
+    padding: 24px 0 30px;
+    display: block;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 26px;
+    font-family: "Inter",sans-serif;
+}
+.catalog-3{
+    margin-right: 150px;
+    margin-top: 100px;
+    height: 800pxpx;
+    width:800px;
+}
+.catalog-3 img{
+    max-height: 100%;
+    max-width: 100%;
+}
+.download-btn-arr-3{
+    display: flex;
+    background-color: black;
+    width:300px;
+    height:44px;
+    border-radius: 50px;
+    font-size: 15px;
+    justify-content: center;
+}
+.download-btn-text-3{
+    margin-top: 11px;
+    font-size: 15x;
+    color: white;
+}
+.sec3{
+    margin-top: 50px;
+    background-color: white;
+    height: auto;
+    width:100%;
+    border-radius: 15px;
+}
+.logo-sec-4{
+    width: 175px;
+    display: flex;
+    align-items: center;
+    display: flex;
+    height: 80px;
+    margin-bottom: 3.8rem;
+    font-size: 16px;
+    font-weight: 700;
+    
+}
+.logo-sec-4 img{
+    padding-right: 12px;
+    max-width: 100%;
+    max-height: 100%;
+}
+.section-4{
+    text-align: left;
+    width: 100%;
+    margin-top: 100px;
+    margin-left: 100px;
+      
+}
+.section-4 h1{
+    margin-top: -1rem;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46px;
+    font-family: "Inter",sans-serif;
+}
+.discription-4{
+    margin-top: -50px;
+    padding: 24px 0 30px;
+    display: block;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 26px;
+    font-family: "Inter",sans-serif;
+}
+.catalog-4{
+    margin-right: 150px;
+    margin-top: 100px;
+    height: 800pxpx;
+    width:800px;
+}
+.catalog-4 img{
+    max-height: 100%;
+    max-width: 100%;
+}
+.download-btn-arr-4{
+
+    display: flex;
+    background-color: #002970;
+    width:fit-content;
+    height:50px;
+    border-radius: 50px;
+    font-size: 15px;
+    justify-content: center;
+}
+.download-btn-text-4{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 11px;
+    font-size: 18px;
+    color: white;
+}
+.sec4{
+    margin-top: 50px;
+    background-color: white;
+    height: auto;
+    width:100%;
+    border-radius: 15px;
+}
+/* two cards*/
+.sec5{
+    justify-content:space-between;
+    display: flex;
+    margin-top: 50px;
+    background-color: #f5f7fa;
+    height: 700px;
+    width:100%;
+    
+}
+.cv-1{
+    padding-top: px;
+    background-color: white;
+    width:48%;
+    height: auto;
+    border-radius: 15px;
+}
+.logo-sec-5{
+    width: 175px;
+    display: flex;
+    align-items: center;
+    display: flex;
+    height: 80px;
+    margin-bottom: 3.8rem;
+    font-size: 16px;
+    font-weight: 700;
+    
+}
+.logo-sec-5 img{
+    padding-right: 12px;
+    max-width: 100%;
+    max-height: 100%;
+}
+.section-5{
+    text-align: left;
+    width: 100%;
+    margin-top: 40px;
+    margin-left: 100px;
+      
+}
+.section-5 h1{
+    margin-top: -40px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    font-family: "Inter",sans-serif;
+}
+.discription-5{
+    margin-top: -70px;
+    padding: 24px 0 30px;
+    display: block;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 26px;
+    font-family: "Inter",sans-serif;
+}
+.catalog-5{
+    height: 250px;
+    width:400px;
+   
+}
+.catalog-5 img{
+    height: 100%;
+    width:100%;
+}
+.sec6{
+    margin-top: 50px;
+    background-color: #f5f7fa;
+    height: 700px;
+    width:100%;
+    
+}
+.cv-2{
+    background-color: white;
+    width:48%;
+    height: auto;
+    border-radius: 15px;
+}
+.logo-sec-6{
+    width: 175px;
+    display: flex;
+    align-items: center;
+    display: flex;
+    height: 80px;
+    margin-bottom: 3.8rem;
+    font-size: 16px;
+    font-weight: 700;
+    
+}
+.logo-sec-6 img{
+    padding-right: 12px;
+    max-width: 100%;
+    max-height: 100%;
+}
+.section-6{
+    text-align: left;
+    width: 100%;
+    margin-top: 40px;
+    margin-left: 100px;
+      
+}
+.section-6 h1{
+    margin-top: -40px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    font-family: "Inter",sans-serif;
+}
+.discription-6{
+    margin-top: -70px;
+    padding: 24px 0 30px;
+    display: block;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 26px;
+    font-family: "Inter",sans-serif;
+}
+.catalog-6{
+    height: 250px;
+    width:400px;
+   
+}
+.catalog-6 img{
+    height: 100%;
+    width:100%;
+}
+/*fs services*/
+
+.fs-logo-1{
+    width: 175px;
+    display: flex;
+    align-items: center;
+    display: flex;
+    height: 80px;
+    margin-bottom: 3.8rem;
+    font-size: 16px;
+    font-weight: 700;
+    
+}
+.fs-logo-1 img{
+    padding-right: 12px;
+    max-width: 100%;
+    max-height: 100%;
+}
+.fs-1{
+    text-align: left;
+    width: 100%;
+    margin-top: 100px;
+    margin-left: 100px;
+      
+}
+.fs-1 h1{
+    margin-top: -1rem;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46px;
+    font-family: "Inter",sans-serif;
+}
+.fs-discription-1{
+    margin-top: -50px;
+    padding: 24px 0 30px;
+    display: block;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 26px;
+    font-family: "Inter",sans-serif;
+}
+.fs-catalog-1{
+    margin-right: 150px;
+    margin-top: 100px;
+    height: 800pxpx;
+    width:800px;
+}
+.fs-catalog-1 img{
+    max-height: 100%;
+    max-width: 100%;
+}
+.fs-btn-arr-new-1{
+
+    display: flex;
+    background-color: #002970;
+    width:fit-content;
+    height:50px;
+    border-radius: 50px;
+    font-size: 15px;
+    justify-content: center;
+}
+.fs-btn-text-1{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 11px;
+    font-size: 18px;
+    color: white;
+}
+.fs{
+    margin-top: 100px;
+    background-color: white;
+    height: auto;
+    width:100%;
+}
+.fs-title{
+    width: 1170px;
+    margin-left: 100px;
+    font-size: 48px;
+    color: #000;
+    font-weight: 700;
+
+}
+.fsone{
+    margin-top: 100px;
+    height: auto;
+    width:100%;
+    background-image: url("https://pwebassets.paytm.com/commonwebassets/commonweb/images/home/gray-spike.png");
+
+}
